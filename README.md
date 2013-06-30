@@ -1,4 +1,4 @@
-# Opensubtitles.org Hash Function based on Media Player Classic
+## Opensubtitles.org Hash Function based on Media Player Classic
 
 Java implementation of the OpenSubtitles hash function. This hash is used by opensubtitles.org to create unique id
 for movie files. 
