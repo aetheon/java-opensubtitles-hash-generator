@@ -1,20 +1,20 @@
-# Hash Function Executable based on Media Player Classic
+# Opensubtitles.org Hash Function based on Media Player Classic
 
-Java implementation of the OpenSubtitles hash function. This hash is used to create unique id
+Java implementation of the OpenSubtitles hash function. This hash is used by opensubtitles.org to create unique id
 for movie files. 
 
-Useful for searching subtitles for a specific file. 
+Useful when searching subtitles for a specific file. 
 
 <dl>
   <dt>Execute:</dt>
   <dd>
-    <p>java -jar bin/opensubtitles-hash-generator.jar FILE </p>
+    <p>java -jar <i>bin/opensubtitles-hash-generator.jar</i> <b>FILE</b> </p>
     <p>The HASH is returned on the STDOUT</p>
   </dd>
   
   <dt>Example:</dt>
   <dd>
-    <p>java -jar bin/opensubtitles-hash-generator.jar tests/breakdance.avi</p>
+    <p>java -jar <i>bin/opensubtitles-hash-generator.jar</i> <b>tests/breakdance.avi</b> </p>
     <p>8e245d9679d31e12</p>
   </dd>
 </dl>
